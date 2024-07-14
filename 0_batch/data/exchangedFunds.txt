@@ -1,0 +1,9 @@
+{
+  "pesel" : "70010171133",
+  "amountFrom" : 12.34,
+  "currencyFrom" : "PLN",
+  "amountTo" : 0,
+  "currencyTo" : "USD",
+  "exchangeRate" : 0,
+  "message" : ""
+}

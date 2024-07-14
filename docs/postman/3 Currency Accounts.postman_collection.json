@@ -1,0 +1,235 @@
+{
+	"info": {
+		"_postman_id": "e7a4b422-d2f9-42c6-a5d7-a28a9b1bfa66",
+		"name": "3 Currency Accounts",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "9637513"
+	},
+	"item": [
+		{
+			"name": "Create Account",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"pesel\"     : \"{{pesel}}\",\r\n  \"firstName\" : \"John\",\r\n  \"lastName\"  : \"Doe\",\r\n  \"amount\"    : {{initialAmount}}\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/create_account",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"create_account"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Exchange Currency - from PLN to USD",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"pesel\" : \"{{pesel}}\",\r\n  \"amountFrom\" : {{amountFrom1}},\r\n  \"currencyFrom\" : \"{{currencyFrom1}}\",\r\n  \"amountTo\" : 0,\r\n  \"currencyTo\" : \"{{currencyTo1}}\",\r\n  \"exchangeRate\" : 0,\r\n  \"message\" : \"\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/exchange_currency",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"exchange_currency"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Account Statement",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{url}}/account_statement?pesel={{pesel}}",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"account_statement"
+					],
+					"query": [
+						{
+							"key": "pesel",
+							"value": "{{pesel}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Exchange Currency - from USD to PLN",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"pesel\" : \"{{pesel}}\",\r\n  \"amountFrom\" : {{amountFrom2}},\r\n  \"currencyFrom\" : \"{{currencyFrom2}}\",\r\n  \"amountTo\" : 0,\r\n  \"currencyTo\" : \"{{currencyTo2}}\",\r\n  \"exchangeRate\" : 0,\r\n  \"message\" : \"\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/exchange_currency",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"exchange_currency"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "National Bank Exchange Rate",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "http://api.nbp.pl/api/exchangerates/rates/a/usd/",
+					"protocol": "http",
+					"host": [
+						"api",
+						"nbp",
+						"pl"
+					],
+					"path": [
+						"api",
+						"exchangerates",
+						"rates",
+						"a",
+						"usd",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "amountFrom2",
+			"value": "3.167351",
+			"type": "string"
+		},
+		{
+			"key": "url",
+			"value": "http://localhost:8080",
+			"type": "string"
+		},
+		{
+			"key": "pesel",
+			"value": "70010171133",
+			"type": "string"
+		},
+		{
+			"key": "initialAmount",
+			"value": "12.34",
+			"type": "string"
+		},
+		{
+			"key": "amountFrom1",
+			"value": "12.34",
+			"type": "string"
+		},
+		{
+			"key": "currencyFrom1",
+			"value": "PLN",
+			"type": "string"
+		},
+		{
+			"key": "currencyTo1",
+			"value": "USD",
+			"type": "string"
+		},
+		{
+			"key": "currencyFrom2",
+			"value": "USD",
+			"type": "string"
+		},
+		{
+			"key": "currencyTo2",
+			"value": "PLN",
+			"type": "string"
+		},
+		{
+			"key": "pesel_too_young",
+			"value": "07210171133",
+			"type": "string"
+		}
+	]
+}

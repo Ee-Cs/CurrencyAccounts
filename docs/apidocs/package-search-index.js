@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"kp"},{"l":"kp.configuration"},{"l":"kp.controller"},{"l":"kp.domain"},{"l":"kp.domain.funds"},{"l":"kp.domain.rates"},{"l":"kp.domain.starters"},{"l":"kp.domain.statements"},{"l":"kp.services"},{"l":"kp.tools"}];updateSearchResults();

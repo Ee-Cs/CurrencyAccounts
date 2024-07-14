@@ -1,0 +1,6 @@
+{
+  "pesel"     : "70010171133",
+  "firstName" : "John",
+  "lastName"  : "Doe",
+  "amount"    : 12.34
+}
