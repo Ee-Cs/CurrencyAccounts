@@ -4,6 +4,7 @@ The <a href="https://github.com/Ee-Cs/CurrencyAccounts/blob/main/docs/mermaid/fl
 with endpoints.
 </p>
 <hr>
+<h3>❶ The Java classes</h3>
 <h3>The account creation endpoint logic</h3>
 <p>
 The controller method:
@@ -37,7 +38,14 @@ The service method:
 <a href="https://github.com/Ee-Cs/CurrencyAccounts/blob/main/src/main/java/kp/services/KpService.java#L108">
 kp.services.KpService::getAccountStatement</a>.
 </p>
-<h3>The tests</h3>
+<p>
+The National Bank client service method:
+<a href="https://github.com/Ee-Cs/CurrencyAccounts/blob/main/src/main/java/kp/services/ExchangeRateService.java#L38">
+kp.services.ExchangeRateService::getExchangeRate</a>.<br/>
+The National Bank <a href="http://api.nbp.pl/api/exchangerates/rates/a/usd/">exchange rates endpoint</a> 
+</p>
+<hr>
+<h3>❷ The tests</h3>
 <p>
 The <a href="https://github.com/Ee-Cs/CurrencyAccounts/tree/main/src/test/java/kp">
 tests</a>.<br>
@@ -77,13 +85,13 @@ Test scenario executed in Postman
 <p>
 After these two transactions the account balance is not different from original (with small roundings).  
 </p>
-
-<h3>The documentation</h3>
+<hr>
+<h3>❸ The documentation</h3>
 <p>
 <a href="https://htmlpreview.github.io/?https://github.com/Ee-Cs/CurrencyAccounts/blob/main/docs/apidocs/index.html">
 Java API Documentation</a>
 </p>
-<h3>The future design ideas</h3>
+<h3>❹ The future design ideas</h3>
 <ul>
 <li>authentication and authorization</li>
 <li>extend data with dates and more personal data</li>
