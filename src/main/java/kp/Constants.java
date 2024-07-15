@@ -24,7 +24,7 @@ public class Constants {
                     BigDecimal.ZERO, Currency.getInstance("XXX"), BigDecimal.ZERO,
                     "Currency exchange error");
     public static final Function<String, AccountStatement> ACCOUNT_STATEMENT_EMPTY_FUN = pesel ->
-            new AccountStatement(new Account(new Owner(pesel, "", "")), "Account not found");
+            new AccountStatement(new Account(new Owner("", "", pesel)), "Account not found");
     public static final Function<String, String> ACCOUNT_STATEMENT_OK_MSG =
             pesel -> String.format("The account statement, PESEL '%s'", pesel);
     public static final String CURRENCY_EXCHANGE_MSG = "The currency exchange receipt";
