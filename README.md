@@ -64,7 +64,7 @@ Postman collection</a>.
 <li>get account statement</li>
 </ol>
 <p>
-The screenshot of this test scenario executed in Postman. 
+The screenshots of this test scenario executed in Postman. 
 <p>
 1. Creating the account:<br/>
 <img alt="" src="docs/images/ScreenshotCreateAccount.png"/>
@@ -90,9 +90,8 @@ The screenshot of this test scenario executed in Postman.
 <img alt="" src="docs/images/ScreenshotAccountStatement3.png"/>
 </p>
 <p>
-The comment to the above screenshot.
-After these two transactions (PLN → USD and USD → PLN) the account balance
-is not different from original (of course with small roundings).  
+As it is presented on the above screenshot, after these two transactions (PLN → USD and USD → PLN)
+the account balance is not different from original (of course with small roundings).  
 </p>
 <hr>
 <h3>❸ The documentation</h3>
