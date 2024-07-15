@@ -4,7 +4,7 @@ This is the Spring Boot application with HyperSQL database. The <a href="https:/
 with endpoints.
 </p>
 <hr>
-<h3>❶ The Java classes</h3>
+<h2>❶ The Java classes</h2>
 <p>
 The account:
 <a href="https://github.com/Ee-Cs/CurrencyAccounts/blob/main/src/main/java/kp/domain/Account.java#L17">
@@ -46,17 +46,20 @@ The National Bank <a href="http://api.nbp.pl/api/exchangerates/rates/a/usd/">
 exchange rates endpoint</a> used in this application. 
 </p>
 <hr>
-<h3>❷ The tests</h3>
+<h2>❷ The tests</h2>
+<h3>𝓐.</h3>
 <p>
-<span style="font-size:2.5em">𝓐.</span> The <a href="https://github.com/Ee-Cs/CurrencyAccounts/tree/main/src/test/java/kp">
+The <a href="https://github.com/Ee-Cs/CurrencyAccounts/tree/main/src/test/java/kp">
 test classes</a>. They use JUnit Jupiter and MockMvc.
 </p>
+<h3>𝓑.</h3>
 <p>
-<span style="font-size:1.5em">𝓑.</span> The screenshot of the 20 application tests executed in IntelliJ IDEA:<br/>
+The screenshot of the 20 application tests executed in IntelliJ IDEA:<br/>
 <img alt="" src="docs/images/ScreenshotTests.png"/>
 </p>
+<h3>𝓒.</h3>
 <p>
-<span style="font-size:1.5em">𝓒.</span> The endpoint tests in Postman.
+The endpoint tests in Postman.
 The exported <a href="https://github.com/Ee-Cs/CurrencyAccounts/blob/main/docs/postman/3%20Currency%20Accounts.postman_collection.json">
 Postman collection</a>.
 </p>
@@ -98,8 +101,9 @@ The screenshots of this test scenario executed in Postman.
 As it is presented on the above screenshot, after these two transactions (PLN → USD and USD → PLN)
 the account balance is not different from original (of course with small roundings).  
 </p>
+<h3>𝓓.</h3>
 <p>
-<span style="font-size:1.5em">𝓓.</span> The screenshots of the application responses in the Firefox Browser.<br/>
+The screenshots of the application responses in the Firefox Browser.<br/>
 </p>
 <p>
 The account statement before the account creation:<br/>
@@ -110,13 +114,13 @@ The account statement after the account creation:<br/>
 <img alt="" src="docs/images/ScreenshotAccountStatementAfterAccountCreation.png"/><br/>
 </p>
 <hr>
-<h3>❸ The documentation</h3>
+<h2>❸ The documentation</h2>
 <p>
 <a href="https://htmlpreview.github.io/?https://github.com/Ee-Cs/CurrencyAccounts/blob/main/docs/apidocs/index.html">
 Java API Documentation</a>
 </p>
 <hr/>
-<h3>❹ The future design ideas</h3>
+<h2>❹ The future design ideas</h2>
 <ul>
 <li>add authentication and authorization</li>
 <li>extend account data with dates and add more personal details (like address)</li>
