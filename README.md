@@ -98,6 +98,17 @@ The screenshots of this test scenario executed in Postman.
 As it is presented on the above screenshot, after these two transactions (PLN → USD and USD → PLN)
 the account balance is not different from original (of course with small roundings).  
 </p>
+<p>
+The screenshots of the application responses in Web Browser.<br/>
+</p>
+<p>
+The account statement before the account creation:<br/>
+<img alt="" src="docs/images/ScreenshotAccountStatementBeforeAccountCreation.png"/>
+</p>
+<p>
+The account statement after the account creation:<br/>
+<img alt="" src="docs/images/ScreenshotAccountStatementAfterAccountCreation.png"/><br/>
+</p>
 <hr>
 <h3>❸ The documentation</h3>
 <p>
