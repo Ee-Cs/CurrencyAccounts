@@ -6,6 +6,11 @@ with endpoints.
 <hr>
 <h3>❶ The Java classes</h3>
 <p>
+The account:
+<a href="https://github.com/Ee-Cs/CurrencyAccounts/blob/main/src/main/java/kp/domain/Account.java#L17">
+kp.domain.Account</a>.<br/>
+</p>
+<p>
 The account creation endpoint logic.<br/>
 The controller method:
 <a href="https://github.com/Ee-Cs/CurrencyAccounts/blob/main/src/main/java/kp/controller/KpController.java#L41">
