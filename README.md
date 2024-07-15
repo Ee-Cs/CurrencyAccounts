@@ -44,15 +44,27 @@ exchange rates endpoint</a> used in this application.
 <h3>❷ The tests</h3>
 <p>
 The <a href="https://github.com/Ee-Cs/CurrencyAccounts/tree/main/src/test/java/kp">
-test classes</a>.<br>. They use JUnit Jupiter and MockMvc.
+test classes</a>. They use JUnit Jupiter and MockMvc.
 </p>
 <p>
-The screenshot of the application tests executed in IntelliJ IDEA<br/>
+The screenshot of the 20 application tests executed in IntelliJ IDEA:<br/>
 <img alt="" src="docs/images/ScreenshotTests.png"/>
 </p>
 <p>
-The screenshot of the test scenario executed in Postman. 
+The endpoint tests in Postman.
+The exported <a href="https://github.com/Ee-Cs/CurrencyAccounts/blob/main/docs/postman/3%20Currency%20Accounts.postman_collection.json">
+Postman collection</a>.
 </p>
+<ol>The test scenario:
+<li>create the account</li>
+<li>get account statement</li>
+<li>exchange currency PLN → USD</li>
+<li>get account statement</li>
+<li>exchange currency USD → PLN</li>
+<li>get account statement</li>
+</ol>
+<p>
+The screenshot of this test scenario executed in Postman. 
 <p>
 1. Creating the account:<br/>
 <img alt="" src="docs/images/ScreenshotCreateAccount.png"/>
