@@ -120,7 +120,7 @@ The account statement after the account creation:<br/>
 Java API Documentation</a>
 </p>
 <hr/>
-<h2>❹ The future design ideas</h2>
+<h4>❹ Some future design ideas</h4>
 <ul>
 <li>add authentication and authorization</li>
 <li>extend account data with dates and add more personal details (like address)</li>
