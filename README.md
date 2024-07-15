@@ -1,6 +1,6 @@
 # Currency Accounts
 <p>
-The <a href="https://github.com/Ee-Cs/CurrencyAccounts/blob/main/docs/mermaid/flowchart.md">flowchart diagram</a>
+This is the Spring Boot application with HyperSQL database. The <a href="https://github.com/Ee-Cs/CurrencyAccounts/blob/main/docs/mermaid/flowchart.md">flowchart diagram</a>
 with endpoints.
 </p>
 <hr>
