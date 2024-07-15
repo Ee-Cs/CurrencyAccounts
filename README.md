@@ -1,6 +1,7 @@
 # CurrencyAccounts
 <p>
-The flowchart diagram <a href="https://github.com/Ee-Cs/CurrencyAccounts/blob/main/docs/mermaid/flowchart.md"></a>.
+The <a href="https://github.com/Ee-Cs/CurrencyAccounts/blob/main/docs/mermaid/flowchart.md">flowchart diagram</a>
+with endpoints.
 </p>
 <hr>
 <h3>The account creation endpoint logic</h3>
