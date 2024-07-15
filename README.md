@@ -83,16 +83,18 @@ After these two transactions the account balance is not different from original 
 <a href="https://htmlpreview.github.io/?https://github.com/Ee-Cs/CurrencyAccounts/blob/main/docs/apidocs/index.html">
 Java API Documentation</a>
 </p>
-<h3>The design propositions</h3>
+<h3>The future design ideas</h3>
 <ul>
-<li>refactor database schema and change to PostgreSQL database</li>
+<li>authentication and authorization</li>
+<li>extend data with dates and more personal data</li>
+<li>refactor database schema</li>
+<li>switch to PostgreSQL database</li>
+<li>save exchange receipts to database</li> 
 <li>add endpoint for account deleting</li>
-<li>add endpoints for more account transactions (like money withdrawing etc.)</li>
+<li>add endpoints for more account transactions types (like money withdrawing etc.)</li>
 <li>add endpoints for customer activity reporting</li>
 <li>add foreign exchange commission</li>
 <li>generate the endpoint from OpenApi yaml file</li>
 <li>move to Docker, or Kubernetes, or cloud (AWS, MS Azure or Google Cloud Platform)</li>
 </ul>
-	
-
 <hr/>

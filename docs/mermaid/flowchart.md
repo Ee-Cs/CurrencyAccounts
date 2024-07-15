@@ -8,15 +8,15 @@ flowchart TD
  end
  DB[HyperSQL DataBase]:::yellowBox
  NBP[Polish National Bank]:::orangeBox
- subgraph CLI[API Clients]
+ subgraph CLI[Various API Clients]
    CURL[Curl]:::blueBox
    POST[Postman]:::greenBox
    WBR[Web Browser]:::redBox
  end
 
- CLI <--> |call endpoints| APP
- APP <--> |create and update accounts| DB
- APP <--> |get exchange rate| NBP
+ CLI --> |call endpoints| APP
+ APP --> |create and update accounts| DB
+ APP --> |get exchange rate| NBP
 
  classDef redBox     fill:#ff0000,stroke:#000,stroke-width:3px
  classDef greenBox   fill:#00ff00,stroke:#000,stroke-width:3px
