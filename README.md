@@ -48,7 +48,7 @@ exchange rates endpoint</a> used in this application.
 <hr>
 <h3>❷ The tests</h3>
 <p>
-<span style="font-size:1.5em">𝓐.</span> The <a href="https://github.com/Ee-Cs/CurrencyAccounts/tree/main/src/test/java/kp">
+<span style="font-size:2.5em">𝓐.</span> The <a href="https://github.com/Ee-Cs/CurrencyAccounts/tree/main/src/test/java/kp">
 test classes</a>. They use JUnit Jupiter and MockMvc.
 </p>
 <p>
