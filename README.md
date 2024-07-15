@@ -99,7 +99,7 @@ As it is presented on the above screenshot, after these two transactions (PLN �
 the account balance is not different from original (of course with small roundings).  
 </p>
 <p>
-𝓓. The screenshots of the application responses in Web Browser.<br/>
+𝓓. The screenshots of the application responses in the Firefox Browser.<br/>
 </p>
 <p>
 The account statement before the account creation:<br/>
