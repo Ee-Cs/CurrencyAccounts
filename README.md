@@ -48,15 +48,15 @@ exchange rates endpoint</a> used in this application.
 <hr>
 <h3>❷ The tests</h3>
 <p>
-The <a href="https://github.com/Ee-Cs/CurrencyAccounts/tree/main/src/test/java/kp">
+𝓐. The <a href="https://github.com/Ee-Cs/CurrencyAccounts/tree/main/src/test/java/kp">
 test classes</a>. They use JUnit Jupiter and MockMvc.
 </p>
 <p>
-The screenshot of the 20 application tests executed in IntelliJ IDEA:<br/>
+𝓑. The screenshot of the 20 application tests executed in IntelliJ IDEA:<br/>
 <img alt="" src="docs/images/ScreenshotTests.png"/>
 </p>
 <p>
-The endpoint tests in Postman.
+𝓒. The endpoint tests in Postman.
 The exported <a href="https://github.com/Ee-Cs/CurrencyAccounts/blob/main/docs/postman/3%20Currency%20Accounts.postman_collection.json">
 Postman collection</a>.
 </p>
@@ -99,7 +99,7 @@ As it is presented on the above screenshot, after these two transactions (PLN �
 the account balance is not different from original (of course with small roundings).  
 </p>
 <p>
-The screenshots of the application responses in Web Browser.<br/>
+𝓓. The screenshots of the application responses in Web Browser.<br/>
 </p>
 <p>
 The account statement before the account creation:<br/>
