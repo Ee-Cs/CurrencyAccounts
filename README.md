@@ -5,35 +5,30 @@ with endpoints.
 </p>
 <hr>
 <h3>❶ The Java classes</h3>
-<h3>The account creation endpoint logic</h3>
 <p>
+The account creation endpoint logic.<br/>
 The controller method:
 <a href="https://github.com/Ee-Cs/CurrencyAccounts/blob/main/src/main/java/kp/controller/KpController.java#L41">
-kp.controller.KpController::createAccount</a>.
-</p>
-<p>
+kp.controller.KpController::createAccount</a>.<br/>
 The service method:
 <a href="https://github.com/Ee-Cs/CurrencyAccounts/blob/main/src/main/java/kp/services/KpService.java#L46">
 kp.services.KpService::createAccount</a>.
 </p>
-<h3>The exchange currency endpoint logic</h3>
 <p>
+The exchange currency endpoint logic.<br/>
 The controller method:
 <a href="https://github.com/Ee-Cs/CurrencyAccounts/blob/main/src/main/java/kp/controller/KpController.java#L58">
-kp.controller.KpController::exchangeCurrency</a>.
-</p>
-<p>
+kp.controller.KpController::exchangeCurrency</a>.<br/>
 The service method:
 <a href="https://github.com/Ee-Cs/CurrencyAccounts/blob/main/src/main/java/kp/services/KpService.java#L70">
 kp.services.KpService::exchangeCurrency</a>.
 </p>
-<h3>The account statement endpoint logic</h3>
+
 <p>
+The account statement endpoint logic.<br/>
 The controller method:
 <a href="https://github.com/Ee-Cs/CurrencyAccounts/blob/main/src/main/java/kp/controller/KpController.java#L72">
-kp.controller.KpController::getAccountStatement</a>.
-</p>
-<p>
+kp.controller.KpController::getAccountStatement</a>.<br/>
 The service method:
 <a href="https://github.com/Ee-Cs/CurrencyAccounts/blob/main/src/main/java/kp/services/KpService.java#L108">
 kp.services.KpService::getAccountStatement</a>.
@@ -42,21 +37,21 @@ kp.services.KpService::getAccountStatement</a>.
 The National Bank client service method:
 <a href="https://github.com/Ee-Cs/CurrencyAccounts/blob/main/src/main/java/kp/services/ExchangeRateService.java#L38">
 kp.services.ExchangeRateService::getExchangeRate</a>.<br/>
-The National Bank <a href="http://api.nbp.pl/api/exchangerates/rates/a/usd/">exchange rates endpoint</a> 
+The National Bank <a href="http://api.nbp.pl/api/exchangerates/rates/a/usd/">
+exchange rates endpoint</a> used in this application. 
 </p>
 <hr>
 <h3>❷ The tests</h3>
 <p>
 The <a href="https://github.com/Ee-Cs/CurrencyAccounts/tree/main/src/test/java/kp">
-tests</a>.<br>
-The controller tests use JUnit Jupiter and MockMvc.
+test classes</a>.<br>. They use JUnit Jupiter and MockMvc.
 </p>
 <p>
-Application tests executed in IntelliJ IDEA<br/>
+The screenshot of the application tests executed in IntelliJ IDEA<br/>
 <img alt="" src="docs/images/ScreenshotTests.png"/>
 </p>
 <p>
-Test scenario executed in Postman 
+The screenshot of the test scenario executed in Postman. 
 </p>
 <p>
 1. Creating the account:<br/>
@@ -83,7 +78,9 @@ Test scenario executed in Postman
 <img alt="" src="docs/images/ScreenshotAccountStatement3.png"/>
 </p>
 <p>
-After these two transactions the account balance is not different from original (with small roundings).  
+The comment to the above screenshot.
+After these two transactions (PLN → USD and USD → PLN) the account balance
+is not different from original (of course with small roundings).  
 </p>
 <hr>
 <h3>❸ The documentation</h3>
