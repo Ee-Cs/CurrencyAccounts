@@ -1,4 +1,4 @@
-# CurrencyAccounts
+# Currency Accounts
 <p>
 The <a href="https://github.com/Ee-Cs/CurrencyAccounts/blob/main/docs/mermaid/flowchart.md">flowchart diagram</a>
 with endpoints.
