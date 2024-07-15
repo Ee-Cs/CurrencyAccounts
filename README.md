@@ -104,18 +104,20 @@ the account balance is not different from original (of course with small roundin
 <a href="https://htmlpreview.github.io/?https://github.com/Ee-Cs/CurrencyAccounts/blob/main/docs/apidocs/index.html">
 Java API Documentation</a>
 </p>
+<hr/>
 <h3>❹ The future design ideas</h3>
 <ul>
-<li>authentication and authorization</li>
-<li>extend data with dates and more personal data</li>
+<li>add authentication and authorization</li>
+<li>extend account data with dates and add more personal details (like address)</li>
 <li>refactor database schema</li>
 <li>switch to PostgreSQL database</li>
 <li>save exchange receipts to database</li> 
 <li>add endpoint for account deleting</li>
 <li>add endpoints for more account transactions types (like money withdrawing etc.)</li>
 <li>add endpoints for customer activity reporting</li>
-<li>add foreign exchange commission</li>
-<li>generate the endpoint from OpenApi yaml file</li>
+<li>maybe it would be needed the foreign exchange commission or other fees</li>
+<li>generate the endpoint from OpenApi yaml file, use Swagger</li>
 <li>move to Docker, or Kubernetes, or cloud (AWS, MS Azure or Google Cloud Platform)</li>
+<li>after refactoring add more tests</li>
 </ul>
 <hr/>
