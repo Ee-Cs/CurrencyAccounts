@@ -128,6 +128,7 @@ The account statement after the account creation:<br/>
 <h4>❸ Some future design ideas</h4>
 <ul>
 <li>add authentication and authorization</li>
+<li>do transaction in two steps: show used exchange rate and ask for user decision</li>
 <li>try Native Image compilation with GraalVM</li>
 <li>extend account data with dates and add more personal details (like address, phone number)</li>
 <li>refactor database schema</li>
