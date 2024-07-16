@@ -1,8 +1,13 @@
 # Currency Accounts
 <p>
-This is the Spring Boot application with HyperSQL database. The <a href="https://github.com/Ee-Cs/CurrencyAccounts/blob/main/docs/mermaid/flowchart.md">flowchart diagram</a>
-with endpoints.
+This is the Spring Boot application with HyperSQL database.
 </p>
+<ul>
+<li><a href="https://github.com/Ee-Cs/CurrencyAccounts/blob/main/docs/mermaid/flowchart.md">flowchart diagram</a>
+with endpoints</li>
+<li><a href="https://htmlpreview.github.io/?https://github.com/Ee-Cs/CurrencyAccounts/blob/main/docs/apidocs/index.html">
+Java API Documentation</a></li>
+</ul>
 <hr>
 <h2>❶ Java source code</h2>
 <p>
@@ -119,14 +124,8 @@ The account statement before the account creation:<br/>
 The account statement after the account creation:<br/>
 <img alt="" src="docs/images/ScreenshotAccountStatementAfterAccountCreation.png"/><br/>
 </p>
-<hr>
-<h2>❸ The documentation</h2>
-<p>
-<a href="https://htmlpreview.github.io/?https://github.com/Ee-Cs/CurrencyAccounts/blob/main/docs/apidocs/index.html">
-Java API Documentation</a>
-</p>
 <hr/>
-<h4>❹ Some future design ideas</h4>
+<h4>❸ Some future design ideas</h4>
 <ul>
 <li>add authentication and authorization</li>
 <li>try Native Image compilation with GraalVM</li>
