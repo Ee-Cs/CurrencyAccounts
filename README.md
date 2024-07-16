@@ -129,16 +129,17 @@ Java API Documentation</a>
 <h4>❹ Some future design ideas</h4>
 <ul>
 <li>add authentication and authorization</li>
-<li>extend account data with dates and add more personal details (like address)</li>
+<li>try Native Image compilation with GraalVM</li>
+<li>extend account data with dates and add more personal details (like address, phone number)</li>
 <li>refactor database schema</li>
 <li>switch to PostgreSQL database</li>
 <li>save exchange receipts to database</li> 
 <li>add endpoint for account deleting</li>
 <li>add endpoints for more account transactions types (like money withdrawing etc.)</li>
-<li>add endpoints for customer activity reporting</li>
-<li>maybe it would be needed the foreign exchange commission or other fees</li>
+<li>add endpoints for customer activity reporting (like number of currency exchanges per week)</li>
+<li>maybe it would be needed to add the foreign exchange commission or other fees</li>
 <li>generate the endpoint from OpenApi yaml file, use Swagger</li>
 <li>move to Docker, or Kubernetes, or cloud (AWS, MS Azure or Google Cloud Platform)</li>
-<li>after refactoring add more tests</li>
+<li>after refactoring, add more tests</li>
 </ul>
 <hr/>
