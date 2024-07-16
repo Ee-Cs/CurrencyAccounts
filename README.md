@@ -78,7 +78,8 @@ Postman collection</a>.
 <li>after account creation the initial amount is in PLN, zero amount is in USD</li>
 <li>after 1st transaction initial amount is exchanged to USD, no amount left in PLN</li>
 <li>after 2nd transaction initial amount is exchanged back to PLN, no amount left in USD</li>
-<li>after these two transactions the account balance should not differ from original (of course with small roundings)</li>
+<li>after these two transactions the account balance should not differ from original<br/>
+    (of course with small roundings)</li>
 </ul>
 <p>
 The screenshots of this test scenario executed in Postman. 
