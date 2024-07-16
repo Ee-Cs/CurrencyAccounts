@@ -54,7 +54,7 @@ root package</a>. The tests use JUnit Jupiter, Mockito, and MockMvc.
 </p>
 <h3>𝓑.</h3>
 <p>
-The screenshot of the 20 application tests executed in IntelliJ IDEA:<br/>
+There are 20 tests defined in "Currency Accounts" application. The screenshot of these tests execution in IntelliJ IDEA:<br/>
 <img alt="" src="docs/images/ScreenshotTests.png"/>
 </p>
 <h3>𝓒.</h3>
