@@ -4,14 +4,14 @@ This is the Spring Boot application with HyperSQL database. The <a href="https:/
 with endpoints.
 </p>
 <hr>
-<h2>❶ The Java classes</h2>
+<h2>❶ Java source code</h2>
 <p>
 The account:
 <a href="https://github.com/Ee-Cs/CurrencyAccounts/blob/main/src/main/java/kp/domain/Account.java#L17">
 kp.domain.Account</a>.<br/>
 </p>
 <p>
-The account creation endpoint logic.<br/>
+The "account creation" endpoint logic.<br/>
 The controller method:
 <a href="https://github.com/Ee-Cs/CurrencyAccounts/blob/main/src/main/java/kp/controller/KpController.java#L41">
 kp.controller.KpController::createAccount</a>.<br/>
@@ -20,7 +20,7 @@ The service method:
 kp.services.KpService::createAccount</a>.
 </p>
 <p>
-The exchange currency endpoint logic.<br/>
+The "exchange currency" endpoint logic.<br/>
 The controller method:
 <a href="https://github.com/Ee-Cs/CurrencyAccounts/blob/main/src/main/java/kp/controller/KpController.java#L58">
 kp.controller.KpController::exchangeCurrency</a>.<br/>
@@ -30,7 +30,7 @@ kp.services.KpService::exchangeCurrency</a>.
 </p>
 
 <p>
-The account statement endpoint logic.<br/>
+The "account statement" endpoint logic.<br/>
 The controller method:
 <a href="https://github.com/Ee-Cs/CurrencyAccounts/blob/main/src/main/java/kp/controller/KpController.java#L72">
 kp.controller.KpController::getAccountStatement</a>.<br/>
@@ -49,8 +49,8 @@ exchange rates endpoint</a> used in this application.
 <h2>❷ The tests</h2>
 <h3>𝓐.</h3>
 <p>
-The <a href="https://github.com/Ee-Cs/CurrencyAccounts/tree/main/src/test/java/kp">
-test classes</a>. They use JUnit Jupiter and MockMvc.
+The tests Java source code - <a href="https://github.com/Ee-Cs/CurrencyAccounts/tree/main/src/test/java/kp">
+root package</a>. The tests use JUnit Jupiter, Mockito, and MockMvc.
 </p>
 <h3>𝓑.</h3>
 <p>
