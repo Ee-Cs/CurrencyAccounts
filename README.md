@@ -68,11 +68,11 @@ Postman collection</a>.
 </p>
 <ol>The test scenario:
 <li>create the account</li>
-<li>get account statement</li>
-<li>exchange currency PLN → USD</li>
-<li>get account statement</li>
-<li>exchange currency USD → PLN</li>
-<li>get account statement</li>
+<li>get the account statement</li>
+<li>exchange the currency - PLN → USD</li>
+<li>get the account statement</li>
+<li>exchange the currency - USD → PLN</li>
+<li>get the account statement</li>
 </ol>
 <p>
 The screenshots of this test scenario executed in Postman. 
