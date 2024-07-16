@@ -139,7 +139,7 @@ Java API Documentation</a>
 <li>add endpoints for customer activity reporting (like number of currency exchanges per week)</li>
 <li>maybe it would be needed to add the foreign exchange commission or other fees</li>
 <li>generate the endpoint from OpenApi yaml file, use Swagger</li>
-<li>move to Docker, or Kubernetes, or cloud (AWS, MS Azure or Google Cloud Platform)</li>
+<li>move to Docker, or Kubernetes, or cloud (like AWS, MS Azure, or Google Cloud Platform)</li>
 <li>after refactoring, add more tests</li>
 </ul>
 <hr/>
