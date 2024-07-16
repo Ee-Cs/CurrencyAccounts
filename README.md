@@ -66,14 +66,14 @@ The endpoint tests in Postman.
 The exported <a href="https://github.com/Ee-Cs/CurrencyAccounts/blob/main/docs/postman/3%20Currency%20Accounts.postman_collection.json">
 Postman collection</a>.
 </p>
-<ul>The amounts checking test scenario:
+<ol>The amount checking test scenario:
 <li>create the account</li>
 <li>get the account statement</li>
 <li>exchange the currency - PLN → USD</li>
 <li>get the account statement</li>
 <li>exchange the currency - USD → PLN</li>
 <li>get the account statement</li>
-</ul>
+</ol>
 <ul>The given initial amount value should be transacted this way:
 <li>after account creation the initial amount is in PLN, zero amount is in USD</li>
 <li>after 1st transaction initial amount is exchanged to USD, no amount left in PLN</li>
