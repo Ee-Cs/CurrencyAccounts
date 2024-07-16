@@ -66,14 +66,20 @@ The endpoint tests in Postman.
 The exported <a href="https://github.com/Ee-Cs/CurrencyAccounts/blob/main/docs/postman/3%20Currency%20Accounts.postman_collection.json">
 Postman collection</a>.
 </p>
-<ol>The test scenario:
+<ul>The amounts checking test scenario:
 <li>create the account</li>
 <li>get the account statement</li>
 <li>exchange the currency - PLN → USD</li>
 <li>get the account statement</li>
 <li>exchange the currency - USD → PLN</li>
 <li>get the account statement</li>
-</ol>
+</ul>
+<ul>The given initial amount value should be transacted this way:
+<li>after account creation the initial amount is in PLN, zero amount is in USD</li>
+<li>after 1st transaction initial amount is exchanged to USD, no amount left in PLN</li>
+<li>after 2nd transaction initial amount is exchanged back to PLN, no amount left in USD</li>
+<li>after these two transactions the account balance should not differ from original (of course with small roundings)</li>
+</ul>
 <p>
 The screenshots of this test scenario executed in Postman. 
 <p>
@@ -81,7 +87,7 @@ The screenshots of this test scenario executed in Postman.
 <img alt="" src="docs/images/ScreenshotCreateAccount.png"/>
 </p>
 <p>
-2. The account statement after creation:<br/>
+2. The account statement after account creation:<br/>
 <img alt="" src="docs/images/ScreenshotAccountStatement1.png"/>
 </p>
 <p>
@@ -99,10 +105,6 @@ The screenshots of this test scenario executed in Postman.
 <p>
 6. The account statement after exchange from USD to PLN:<br/>
 <img alt="" src="docs/images/ScreenshotAccountStatement3.png"/>
-</p>
-<p>
-As it is presented on the above screenshot, after these two transactions (PLN → USD and USD → PLN)
-the account balance is not different from original (of course with small roundings).  
 </p>
 <h3>𝓓.</h3>
 <p>
