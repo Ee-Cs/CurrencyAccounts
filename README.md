@@ -5,8 +5,8 @@ The "Currency Accounts" is implemented as a
 application with <a href="https://hsqldb.org/">HyperSQL</a> database.
 </p>
 <ul>
-<li><a href="https://github.com/Ee-Cs/CurrencyAccounts/blob/main/docs/mermaid/flowchart.md">flowchart diagram</a>
-with endpoints</li>
+<li><a href="https://github.com/Ee-Cs/CurrencyAccounts/blob/main/docs/mermaid/flowchart.md">Flowchart diagram</a>
+with 3 implemented endpoints</li>
 <li><a href="https://htmlpreview.github.io/?https://github.com/Ee-Cs/CurrencyAccounts/blob/main/docs/apidocs/index.html">
 Java API Documentation</a></li>
 </ul>
