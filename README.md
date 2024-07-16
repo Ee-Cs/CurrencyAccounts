@@ -1,6 +1,8 @@
 # Currency Accounts
 <p>
-This is the Spring Boot application with HyperSQL database.
+The "Currency Accounts" is implemented as a
+<a href="https://spring.io/projects/spring-boot">Spring Boot</a>
+application with <a href="https://hsqldb.org/">HyperSQL</a> database.
 </p>
 <ul>
 <li><a href="https://github.com/Ee-Cs/CurrencyAccounts/blob/main/docs/mermaid/flowchart.md">flowchart diagram</a>
@@ -129,7 +131,7 @@ The account statement after the account creation:<br/>
 <ul>
 <li>add authentication and authorization</li>
 <li>do transaction in two steps: show used exchange rate and ask for user decision</li>
-<li>try Native Image compilation with GraalVM</li>
+<li>try Native Image compilation with GraalVM, try Red Hat Quarkus</li>
 <li>extend account data with dates and add more personal details (like address, phone number)</li>
 <li>refactor database schema</li>
 <li>switch to PostgreSQL database</li>
